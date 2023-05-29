@@ -1,0 +1,362 @@
+/* ------Global Config------ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.first_nav_item {
+  display: none;
+}
+
+.logo-devops {
+  display: none;
+}
+
+.second_nav_deskt {
+  display: none;
+}
+
+.box-hamburger {
+  padding: 1rem 2rem;
+}
+
+.hamburger {
+  height: 4rem;
+  font-size: 3.2rem;
+  color: #050505;
+  cursor: pointer;
+  padding-bottom: 4rem;
+}
+
+/* Headline Section */
+
+.headline {
+  background: url(/assets/images/background\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+
+.flex-headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-block {
+  margin: 10rem 0 0 0;
+}
+
+.text-block h2 {
+  color: #ec5343;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-block h1 {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 1;
+  background-image: url(/assets/images/background-letters.jpg);
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+}
+
+.description_conference {
+  margin: 2rem 0 0 0;
+  border: 4px solid #fff;
+  background-color: rgb(245, 242, 242);
+  width: 92vw;
+}
+
+.font-prop p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.dates {
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}
+
+.dates .font-dates {
+  font-weight: 900;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  font-size: 3.2rem;
+  color: #5d5c5c;
+}
+
+.dates .place {
+  font-size: 1.8rem;
+  color: #7a7a7a;
+  font-weight: 700;
+}
+
+/* MAIN SECTION PROGRAM */
+
+.main-program {
+  background-color: #272a31;
+  background-image: url(/assets/images/gridbg.svg);
+  background-size: 16rem;
+  color: #272a31;
+  padding: 2.4rem 0;
+  padding-bottom: 3rem;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #f1eaea;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 0 auto 2.5rem auto;
+}
+
+.border {
+  border-bottom: 3px solid #ec5343;
+  width: 12%;
+  margin: 1rem auto;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 2rem 0.5rem;
+  margin: 1rem;
+  width: 95%;
+  gap: 1rem;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  color: rgb(245, 242, 242);
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #ec5343;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+}
+
+.btn {
+  background-color: #ec5343;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  width: 80%;
+  height: 12vh;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+/* SPEAKERS SECTION */
+
+.speakers h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #060606;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 1rem auto 1rem auto;
+}
+
+.card-speaker {
+  display: flex;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 2rem 0.5rem;
+  margin: 1rem;
+  width: 95%;
+}
+
+.profile-description {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  color: rgb(21, 20, 20);
+  margin-left: 3rem;
+}
+
+.profile-picture {
+  width: 13rem;
+  height: 15rem;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.back-chess {
+  width: 90%;
+}
+
+.image-profile {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+.profile-description h4 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #070707;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  padding-top: 1rem;
+}
+
+.profile-description .position {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ec5343;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  padding: 1rem 0;
+}
+
+.line {
+  border-bottom: 3px solid #7a7979;
+  width: 10vw;
+  margin-bottom: 1.5rem;
+}
+
+.profile-description .position-description {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #070707;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+}
+
+.btn-main {
+  border: 1px solid #ec5343;
+  color: #030303;
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 0 0 0.5rem 0.1rem #ec5343;
+  padding: 2rem 0;
+}
+
+.partners h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #fefcfc;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 1rem auto 1rem auto;
+}
+
+.partners {
+  background-color: #272a31;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.box-partner-A {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.box-partner-A img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box-partner-B img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-footer {
+  width: 20rem;
+  height: 20rem;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: -9rem;
+}
