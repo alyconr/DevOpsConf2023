@@ -33,7 +33,7 @@ body {
   display: none;
 }
 
-.logo-devops {
+.box-logo-deskt {
   display: none;
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 .text-block {
-  margin: 10rem 0 0 0;
+  margin: 3rem 0 0 0;
 }
 
 .text-block h2 {
@@ -98,7 +98,7 @@ body {
   margin: 2rem 0 0 0;
   border: 4px solid #fff;
   background-color: rgb(245, 242, 242);
-  width: 92vw;
+  width: 90vw;
 }
 
 .font-prop p {
@@ -159,7 +159,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(211, 211, 211, 0.2);
+  background-color: rgba(139, 134, 134, 0.2);
   padding: 2rem 0.5rem;
   margin: 1rem;
   width: 95%;
@@ -534,4 +534,143 @@ h4 {
   background-size: cover;
   background-position: center;
   height: 30vh;
+}
+
+/* media queries DESKTOP VERSION */
+@media screen and (min-width: 768px) {
+  /* HEADER DESKTOP */
+
+  .box-hamburger {
+    display: none;
+  }
+
+  .firstnav_container_deskt {
+    background-color: #272a31;
+    padding: 1rem;
+  }
+
+  .first_nav_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 1rem;
+    color: white;
+    gap: 2rem;
+    font-size: 1.2rem;
+    margin-right: 10rem;
+  }
+
+  .second-nav_container_deskt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f8f9;
+    width: 100%;
+    height: 10rem;
+  }
+
+  .box-logo-deskt,
+  .logo-devops {
+    width: 30rem;
+    height: 30rem;
+    display: block;
+    margin: -3.5rem 0 0 1rem;
+  }
+
+  .second_nav_deskt {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 1rem;
+    color: rgb(5, 5, 5);
+    gap: 2rem;
+    font-size: 1.2rem;
+    margin-right: 10rem;
+  }
+
+  .second_nav_deskt li a {
+    text-decoration: none;
+    color: #070707;
+    font-size: 1.8rem;
+  }
+
+  .second_nav_deskt li a:hover {
+    color: #e83b2b;
+  }
+
+  .second_nav_deskt li:last-child a {
+    background-color: #e83b2b;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+  }
+
+  .headline {
+    background: url(/assets/images/background\ Desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
+  }
+
+  .text-block {
+    margin-top: 2rem;
+  }
+
+  .text-block h2 {
+    color: #ec5343;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  .text-block h1 {
+    font-size: 5.8rem;
+    font-weight: 900;
+  }
+
+  .description_conference {
+    margin-top: 4rem;
+    width: 60vw;
+    padding: 2rem;
+  }
+
+  .dates {
+    margin: 2rem 0 0 0;
+  }
+
+  .container-main-program {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+  }
+
+  .card-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .box-2 {
+    text-align:justify;
+    font-size: 1.3rem;
+    width: 20rem;
+  }
+
+  .button-box {
+    display: none;
+  }
+  
+
 }
