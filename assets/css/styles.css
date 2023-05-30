@@ -360,3 +360,178 @@ h4 {
   gap: 1rem;
   margin: -9rem;
 }
+
+/* SECTION ABOUT HEADLINE */
+.container-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline_about {
+  background: url(/assets/images/background\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 40vh;
+}
+
+.text-block-about h2 {
+  color: #ec5343;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.text-block-about h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.8rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #ec5343;
+  text-align: center;
+}
+
+.description_conference-about {
+  margin: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.font-prop-about p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.contact-info {
+  background-color: #f8f5f5;
+  padding: 3rem 2rem;
+  line-height: 1.5;
+}
+
+.contact-info .font-dates {
+  font-weight: 900;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: #7e7e7e;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.contact-info .place {
+  font-size: 1.4rem;
+  color: #434242;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* SECTION LOGO ABOUT */
+
+.container-logo-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0.5rem;
+}
+
+.container-logo-about h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #070707;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 2rem;
+}
+
+.container-logo-about p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #7e7e7e;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 2rem 2rem;
+  line-height: 1.3;
+}
+
+.border-about {
+  border-bottom: 1px solid #7a7979;
+  width: 100vw;
+}
+
+.logo-about img {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* SECTION PAST EDITIONS */
+
+.summits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summits-container h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #070707;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 1rem;
+}
+
+.summits-container p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #7e7e7e;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 2rem auto;
+  line-height: 1.3;
+}
+
+.summit-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.summit-box {
+  width: 85%;
+  margin: auto;
+  padding: 4.8rem;
+}
+
+.summit-box p {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #fbf8f8;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  text-align: center;
+  margin: 2rem 2rem;
+  line-height: 1.3;
+}
+
+.summit-image-1 {
+  background: linear-gradient(rgba(236, 54, 34, 0.4), rgba(175, 39, 24, 0.4)), url(/assets/images/conference.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+
+.summit-image-2 {
+  background: linear-gradient(rgba(236, 54, 34, 0.4), rgba(175, 39, 24, 0.4)), url(/assets/images/pexels-icsa-1708988.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
