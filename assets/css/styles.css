@@ -342,7 +342,7 @@ h4 {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -358,7 +358,7 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin: -9rem;
+  margin-top: -3rem;
 }
 
 /* SECTION ABOUT HEADLINE */
