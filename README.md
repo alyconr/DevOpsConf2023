@@ -7,7 +7,7 @@
   <img src="./assets/images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>DEVOPS INTERNACTIONAL CONFERENCE 2023 "MICROVERSE CAPSTONE PROJECT"</b></h3>
+  <h3><b>DEVOPS INTERNATIONAL CONFERENCE 2023 "MICROVERSE CAPSTONE PROJECT"</b></h3>
 
 </div>
 
@@ -91,33 +91,33 @@
 ### Key Features <a name="key-features"></a>
 
 - **[HTML & CSS Best practices]**
-- **[Header Section]**
-- **[Works Section]**
+- **[Home Section]**
 - **[About Section]**
 - **[Headline Section ]**
-- **[Contact Form Section]**
+- **[Speaker Section]**
+- **[Footer Section]**
 - **[Flexbox and Grid to  Design flexible responsive layout structure]**
 - **[Mobil First Design ]**
 - **[Deskto Version Design ]**
 - **[Mobile Menu ]**
-- **[Popup Window ]**
-- **[Validation Email ]**
 - **[Follow GitHub Flow]**
 - **[Use Linters]**
-- **[GitHub Pages]**
+- **[GitHub Actions]**
+- **[CI and CD Deployment with Netlify]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-### 🚀 Live Demo <a name="live-demo" ></a>
+### 🚀 Live Demo <a name="live-demo"></a>
 
 > 
 
-- [Live Demo Link](https://alyconr.github.io/Personal-Portfolio-Project/)
+- [Live Demo Link](	https://deploy-preview-2--majestic-chimera-caed1f.netlify.app)
 
-![](https://i.imgur.com/nppe0wH.gif)
+![](https://github.com/alyconr/DevOpsConf2023/blob/desktop-version/assets/images/Mi%20video.gif)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -129,7 +129,7 @@ To get a local copy up and running, follow these steps.
 To run this project  you need the following tools:
 - [VS Code ]
 - [Git and GitHub ]
-- [GitHub Pages]
+- [CI CD Netlify Bot  Instalation]
 - [Nodejs ]
 
 
@@ -139,7 +139,7 @@ To run this project  you need the following tools:
 Clone this repository to your desired folder:
 ```sh
  cd Personal-Portfolio-Project
- git clone https://github.com/alyconr/Personal-Portfolio-Project
+ git clone git@github.com:alyconr/DevOpsConf2023.git
 ```
 
 
@@ -149,7 +149,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/Personal-Portfolio-Project.git
+  git clone git@github.com:alyconr/DevOpsConf2023.git
 ```
 
 
@@ -204,7 +204,7 @@ To test the ESLint linter:
 
 ### Deployment
 
-You can deploy this project using your local enviroment.
+You can deploy this project using your local enviroment or use Netlify bot to deploy it online.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -214,11 +214,15 @@ You can deploy this project using your local enviroment.
 ## 👥 Authors <a name="authors"></a>
 
 JEYSSON CONTRERAS
+Cindy Shin
 
 👤 **Author1**
 
 - GitHub: [@alyconr](https://github.com/alyconr)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras/)
+
+👤 **Author2**
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/adagio07?original_referer=)
 
 
 
@@ -231,8 +235,10 @@ JEYSSON CONTRERAS
 
 - [ ] **[Toolbar]**
 - [ ] **[Headline]**
-- [ ] **[About-section]**
-- [ ] **[Contact-form]**
+- [ ] **[Home-section]**
+- [ ] **[About-Section]**
+- [ ] **[Speakers-Section]**
+- [ ] **[Main-Program-Section]**
 - [ ] **[Mobile first]**
 - [ ] **[Desktop version]**
 - [ ] [ ] **[Mobile Menu]**
@@ -246,7 +252,7 @@ JEYSSON CONTRERAS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alyconr/Personal-Portfolio-Project/issues).
+Feel free to check the [issues page](https://github.com/alyconr/DevOpsConf2023.git/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -264,7 +270,7 @@ If you like this project please give  one start.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+
 
 I would like to thank  my learning teammates and the Microsoft staff  to support me all the time.
 

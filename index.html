@@ -13,33 +13,44 @@
   </head>
   <body>
     <header>
-      <nav class="firstnav_container_deskt">
+      <nav id="navbar" class="firstnav_container_deskt">
         <ul class="first_nav_item">
           <li><img src="./assets/images/fb.svg" alt="facebook" /></li>
           <li><img src="./assets/images/twitter.svg" alt="twitter" /></li>
-          <li>English</li>
-          <li>My Page</li>
-          <li>Logout</li>
+          <li><a href="">English</a></li>
+          <li><a href="">My Page</a></li>
+          <li><a href="">Logout</a></li>
         </ul>
       </nav>
       <nav class="second-nav_container_deskt">
         <div class="box-logo-deskt">
-          <img
-            class="logo-devops"
-            src="./assets/images/DevOps3.svg"
-            alt="logo"
+          <a href="#"
+            ><img class="logo-devops" src="./assets/images/DevOps3.svg"
+            alt="logo"</a
+          >
           />
         </div>
-        <div class="box-hamburger">
-          <i class="fa-solid fa-bars hamburger"></i>
-        </div>
+
         <ul class="second_nav_deskt">
           <li><a href="about.html">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
+          <li><a href="#main-program">Program</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#partners">Sponsor</a></li>
           <li><a href="#">News</a></li>
           <li><a href="#">DevOps Campaign</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile-nav">
+        <div class="hamburger">
+          <img id="hamburger" src="./assets/images/ham.svg" alt="hamburger" />
+        </div>
+        <ul id="mobile-menu" class="mobile-nav-box">
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#main-program">Program</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#partners">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">CTS Comapaign</a></li>
         </ul>
       </nav>
     </header>
@@ -142,168 +153,32 @@
         <div class="button-box">
           <button class="btn btn-main">Join DevOps summit 2023</button>
         </div>
-        <div class="full-program"><a class="full-a" href="#">See The Full Program</a></div>
+        <div class="full-program">
+          <a class="full-a" href="#">See The Full Program</a>
+        </div>
       </section>
       <section class="speakers" id="speakers">
         <h3>Feature Speakers</h3>
         <div class="border"></div>
-
-        <div class="card-speaker">
-          <div class="profile-picture">
-            <img
-              class="image-profile"
-              src="./assets/images/Mary.jpg"
-              alt="Jennifer"
-            />
-            <img
-              class="back-chess"
-              src="./assets/images/chess.jpg"
-              alt="background"
-            />
-          </div>
-          <div class="profile-description">
-            <h4>Jennifer Adams</h4>
-            <p class="position">DevOps Engineer at XYZ Corporation</p>
-            <div class="line"></div>
-            <p class="position-description">
-              Jennifer Adams is a seasoned DevOps engineer with expertise in
-              implementing CI/CD pipelines and automating deployment processes.
-            </p>
-          </div>
-        </div>
-        <div class="card-speaker">
-          <div class="profile-picture">
-            <img
-              class="image-profile"
-              src="./assets/images/Alan.jpg"
-              alt="Jennifer"
-            />
-            <img
-              class="back-chess"
-              src="./assets/images/chess.jpg"
-              alt="background"
-            />
-          </div>
-          <div class="profile-description">
-            <h4>Michael Graham</h4>
-            <p class="position">Head of DevOps at ABC Enterprises</p>
-            <div class="line"></div>
-            <p class="position-description">
-              Michael is a visionary leader in the DevOps space, driving digital
-              transformation through automation and cloud-native architectures.
-            </p>
-          </div>
-        </div>
-        <div class="card-speaker">
-          <div class="profile-picture">
-            <img
-              class="image-profile"
-              src="./assets/images/Sinthia.jpg"
-              alt="Jennifer"
-            />
-            <img
-              class="back-chess"
-              src="./assets/images/chess.jpg"
-              alt="background"
-            />
-          </div>
-          <div class="profile-description">
-            <h4>Sara Patel</h4>
-            <p class="position">Senior DevOps Consultant at DEF Solutions</p>
-            <div class="line"></div>
-            <p class="position-description">
-              Sarah Patel is a highly experienced DevOps consultant,
-              specializing in helping organizations adopt and optimize DevOps
-              practices.
-            </p>
-          </div>
-        </div>
-        <div class="card-speaker">
-          <div class="profile-picture">
-            <img
-              class="image-profile"
-              src="./assets/images/Peter.jpg"
-              alt="Jennifer"
-            />
-            <img
-              class="back-chess"
-              src="./assets/images/chess.jpg"
-              alt="background"
-            />
-          </div>
-          <div class="profile-description">
-            <h4>David Nguyen</h4>
-            <p class="position">DevOps Architect at XYZ Tech</p>
-            <div class="line"></div>
-            <p class="position-description">
-              David Nguyen is a skilled DevOps architect with a deep
-              understanding of cloud-native technologies and microservices
-              architecture.
-            </p>
-          </div>
-        </div>
-        <div class="card-speaker">
-          <div class="profile-picture">
-            <img
-              class="image-profile"
-              src="./assets/images/Gregor.jpg"
-              alt="Jennifer"
-            />
-            <img
-              class="back-chess"
-              src="./assets/images/chess.jpg"
-              alt="background"
-            />
-          </div>
-          <div class="profile-description">
-            <h4>Karl Foster</h4>
-            <p class="position">DevOps Manager at QRS Solutions</p>
-            <div class="line"></div>
-            <p class="position-description">
-              Karl Foster is a results-oriented DevOps manager with a passion
-              for driving organizational change and continuous improvement.
-            </p>
-          </div>
-        </div>
-        <div class="card-speaker">
-          <div class="profile-picture">
-            <img
-              class="image-profile"
-              src="./assets/images/Zamir.jpg"
-              alt="Jennifer"
-            />
-            <img
-              class="back-chess"
-              src="./assets/images/chess.jpg"
-              alt="background"
-            />
-          </div>
-          <div class="profile-description">
-            <h4>Ali Sahid</h4>
-            <p class="position">DevOps Evangelist at PQR Technologies</p>
-            <div class="line"></div>
-            <p class="position-description">
-              Ali is a dynamic DevOps evangelist, renowned for his expertise in
-              advocating for and implementing DevOps transformations.
-            </p>
-          </div>
-        </div>
+        <div class="col"></div>
 
         <div class="button-box">
-          <button type="submit" class="btn-main">SHOW MORE</button>
+          <button class="btn-show">Show More</button>
         </div>
       </section>
       <section class="partners" id="partners">
         <h3>Partners</h3>
         <div class="border"></div>
-        <div class="box-partner-A">
-          <img src="./assets/images/airbnb.svg" alt="Airbnb" />
-          <img src="./assets/images/google.svg" alt="Google" />
-          <img src="./assets/images/mozilla.svg" alt="mozilla" />
-        </div>
-        <div class="box-partner-B">
-          <img src="./assets/images/daum.svg" alt="daumkakao" />
-          <img src="./assets/images/naver.svg" alt="naver" />
+        <div class="row">
+          <div class="box-partner-A">
+            <img src="./assets/images/airbnb.svg" alt="Airbnb" />
+            <img src="./assets/images/google.svg" alt="Google" />
+            <img src="./assets/images/mozilla.svg" alt="mozilla" />
+          </div>
+          <div class="box-partner-B">
+            <img src="./assets/images/daum.svg" alt="daumkakao" />
+            <img src="./assets/images/naver.svg" alt="naver" />
+          </div>
         </div>
       </section>
       <footer>
@@ -325,5 +200,6 @@
         </div>
       </footer>
     </main>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
