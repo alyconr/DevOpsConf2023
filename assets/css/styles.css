@@ -280,10 +280,11 @@ h4 {
 
 .card-speaker {
   display: flex;
-  background-color: rgba(211, 211, 211, 0.2);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
   padding: 2rem 0.5rem;
   margin: 1rem;
-  width: 95%;
 }
 
 .profile-description {
@@ -357,6 +358,34 @@ h4 {
   padding: 2rem 0;
 }
 
+.btn-show {
+  border: 1px solid #777574;
+  color: #030303;
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 50%;
+  box-shadow: 0 0 0.5rem 0.1rem #323131;
+  padding: 2rem 0;
+}
+
+.btn-scroll-top a {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-scroll-top.show {
+  display: inlin-block;
+}
+
 .partners h3 {
   font-size: 2.2rem;
   font-weight: 400;
@@ -406,7 +435,6 @@ h4 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #292626;
 }
 
 .footer-info-box {
@@ -850,10 +878,6 @@ h4 {
     padding: 1rem;
   }
 
-  .button-box {
-    display: none;
-  }
-
   .full-program {
     display: flex;
     flex-direction: row;
@@ -874,8 +898,9 @@ h4 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+    padding: 0 10rem;
+    margin: 0 2rem;
   }
 
   .row {
@@ -887,13 +912,13 @@ h4 {
   }
 
   .box-partner-A img {
-    width: 20vw;
-    height: 20vh;
+    width: 10vw;
+    height: 10vh;
   }
 
   .box-partner-B img {
-    width: 15vw;
-    height: 15vh;
+    width: 10vw;
+    height: vh;
   }
 
   /* SECTION FOOTER DESKTOP */
@@ -927,7 +952,7 @@ h4 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #292626;
+    background-color: #fff;
   }
 
   .footer-info-box {
@@ -965,6 +990,15 @@ h4 {
   }
 
   .mobile-nav-box {
+    display: none;
+  }
+
+  .show-all-cards .col-A,
+  .show-all-cards .col-B {
+    display: block;
+  }
+
+  .btn-show {
     display: none;
   }
 }
