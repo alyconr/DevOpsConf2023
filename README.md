@@ -115,7 +115,7 @@
 
 - [Live Demo Link](	https://deploy-preview-2--majestic-chimera-caed1f.netlify.app)
 
-![](https://i.imgur.com/nppe0wH.gif)
+![](https://github.com/alyconr/DevOpsConf2023/blob/desktop-version/assets/images/Mi%20video.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
