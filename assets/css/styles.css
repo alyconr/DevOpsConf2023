@@ -1001,4 +1001,8 @@ h4 {
   .btn-show {
     display: none;
   }
+
+  .button-box {
+    display: none;
+  }
 }
