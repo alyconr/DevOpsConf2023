@@ -1,7 +1,6 @@
 const template = (data) => [
   `
-        
-              <div class='profile-picture'>
+          <div class='profile-picture'>
                 <img
                   class='image-profile'
                   src='${data.imagePath}'

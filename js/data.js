@@ -19,7 +19,9 @@ const speakersData = [
     id: '3',
     imagePath: './assets/images/Sinthia.jpg',
     name: 'Senior DevOps Consultant at DEF Solutions',
-    position:
+    position: 'Sarah Patel',
+
+    description:
       'Sarah Patel is a highly experienced DevOps consultant, specializing in helping  organizations adopt and optimize DevOps practices.',
   },
   {
