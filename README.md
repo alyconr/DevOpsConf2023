@@ -214,11 +214,15 @@ You can deploy this project using your local enviroment or use Netlify bot to de
 ## 👥 Authors <a name="authors"></a>
 
 JEYSSON CONTRERAS
+Cindy Shin
 
 👤 **Author1**
 
 - GitHub: [@alyconr](https://github.com/alyconr)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras/)
+
+👤 **Author2**
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/adagio07?original_referer=)
 
 
 
@@ -266,7 +270,7 @@ If you like this project please give  one start.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+
 
 I would like to thank  my learning teammates and the Microsoft staff  to support me all the time.
 
