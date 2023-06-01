@@ -270,7 +270,7 @@ If you like this project please give  one start.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+
 
 I would like to thank  my learning teammates and the Microsoft staff  to support me all the time.
 
