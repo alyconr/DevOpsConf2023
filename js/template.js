@@ -27,3 +27,7 @@ const template = (data) => [
 ];
 
 export default template;
+// the templates are necessary to create the cards dynamically
+// the template is a function that returns an array of strings
+// the array of strings is the HTML that will be used to create the cards
+// the template function takes in the data for each speaker as an argument and returns an array of strings that will be used to create the cards
