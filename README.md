@@ -113,7 +113,7 @@
 
 > 
 
-- [Live Demo Link](	https://deploy-preview-2--majestic-chimera-caed1f.netlify.app)
+- [Live Demo Link](https://devops-conference2023.netlify.app/)
 
 ![](https://github.com/alyconr/DevOpsConf2023/blob/desktop-version/assets/images/Mi%20video.gif)
 
